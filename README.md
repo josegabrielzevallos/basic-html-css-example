@@ -1,0 +1,1 @@
+Example of basic HTML and CSS.
