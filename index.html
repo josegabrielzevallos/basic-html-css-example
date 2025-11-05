@@ -1,59 +1,72 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  
 </head>
 <body>
+  <div class="page">
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="title">PAGE TITLE</h1>
 
+      <!-- barra gris clara con menú a la derecha -->
+      <div class="topbar">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
 
-  <header>
-    <h1>Welcome to Medicine Page</h1>
-  </header>
+    
+    <section class="dark-wrap">
+      <div class="content">
+        
+        <section class="panel article">
+          <h2>Article One</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet, nulla ac fermentum
+            sollicitudin, velit magna faucibus felis, et consequat velit metus ut enim. Duis varius
+            vestibulum orci, eget ultrices arcu imperdiet nec. Duis hendrerit neque enim, sit amet posuere
+            metus ultrices vel. Sed a fringilla eros. Maecenas quis est ac dui blandit laoreet non vel enim.
+            Duis ullamcorper sit amet dolor id egestas.
+          </p>
 
-  <nav aria-label="Menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About company</a></li>
-      <li><a href="#">Contact us</a></li>
-    </ul>
-  </nav>
+          <div class="thumbs">
 
-  <main>
-    <section>
-      <h2>About This Page</h2>
-      <p>This is a company dedicated to providing high-quality, high-quality medical services.</p>
+            <img src="img/ardilla.jpg" alt="Italian Trulli"  width="150" height="80">
+            <img src="img/zorro.jpeg" alt="Italian Trulli"  width="150" height="80">
+            <img src="img/tigre.jpg" alt="Italian Trulli" width="150" height="80">
+            <!-- <div class="thumb">Image 1</div>
+            <div class="thumb">Image 2</div>
+            <div class="thumb">Image 3</div> -->
+          </div>
+        </section>
+
+        <!-- Columna derecha -->
+        <aside class="panel projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>January 2024</li>
+            <li>December 2023</li>
+            <li>November 2023</li>
+            <li>October 2023</li>
+            <li>September 2023</li>
+          </ul>
+        </aside>
+      </div>
     </section>
 
-    <article>
-      <h3>Home care</h3>
-      <p>Currently we have 2 doctors who make home visits by appointment; one specializes in family medicine and has a doctorate in pain management, and the other specializes in physiotherapy.</p>
-      <p>Published on <time datetime="2025-11-03">November 3, 2025</time>.</p>
-    </article>
-
-    <nav aria-label="Services">
-      <ul>
-        <li><a href="#">Densitometry</a></li>
-        <li><a href="#">Breath test</a></li>
-        <li><a href="#">Physiotherapy</a></li>
-      </ul>
-    </nav>
-
-    <aside>
-      <h3>Did You Know?</h3>
-      <p>HTML stands for <em>HyperText Markup Language</em> &copy; 2025.</p>
-    </aside>
-  </main>
-
-  <footer>
-    <p>Created by <strong>Jose Gabriel Zevallos</strong> for Web Development Essentials.</p>
-    <p>All rights reserved &copy; 2025</p>
-  </footer>
-
-
+    <!-- FOOTER -->
+    <footer class="footer">
+      <small>© 2024 My Webpage | <a href="#">Privacy Policy</a></small>
+    </footer>
+  </div>
 </body>
 </html>
-
-
